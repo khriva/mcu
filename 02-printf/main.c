@@ -4,6 +4,7 @@
 #include "stdio.h"
 #include "stdlib.h"
 #include "hardware/gpio.h"
+#include "protocol-task/protocol-task.h"
 uint32_t global_variable = 0;
 const uint LED_PIN = 25;
 
